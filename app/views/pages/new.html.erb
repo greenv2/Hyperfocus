@@ -1,0 +1,76 @@
+<div class="topnav">
+  <%= link_to "Hyperfocus", root_path %>
+  <!-- # =>  <a href="/">Home1</a> -->
+
+  <%= link_to "About", pages_download_path %>
+  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+
+  <%= link_to "New Study Guide", pages_new_path %>
+  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+
+</div>
+<form class="studyform" method="post">
+  <div>
+    <label for="term">Title:</label>
+    <input type="text" id="term" name="term1">
+
+    <br>
+
+    <label for="term">term:</label>
+    <input type="text" id="term" name="term1">
+    <label for="definition">definition:</label>
+    <input type="text" id="definition" name="user_message">
+
+    <br>
+    <label for="term">term:</label>
+    <input type="text" id="term" name="term1">
+    <label for="definition">definition:</label>
+    <input type="text" id="definition" name="user_message">
+
+    <br>
+    <label for="term">term:</label>
+    <input type="text" id="term" name="term1">
+    <label for="definition">definition:</label>
+    <input type="text" id="definition" name="user_message">
+
+
+    <br>
+    <label for="term">term:</label>
+    <input type="text" id="term" name="term1">
+    <label for="definition">definition:</label>
+    <input type="text" id="definition" name="user_message">
+
+
+    <br>
+
+
+    <button id="addnew" type="button" onclick="alert('would add fields for new term')">+term</button>
+
+
+    <div >
+      <label for="mainpoints">Main Point</label>
+      <textarea id="mainpoints" class="mainpoints" name="mainpoints" rows="7" cols="30"></textarea>
+      <label for="bulletpoints">Bullet Points</label>
+      <textarea id="bulletpoints" class="input" name="message" rows="7" cols="30"></textarea>
+    </div>
+
+    <div >
+      <label for="mainpoints">Main Point</label>
+      <textarea id="mainpoints" class="mainpoints" name="mainpoints" rows="7" cols="30"></textarea>
+      <label for="bulletpoints">Bullet Points</label>
+      <textarea id="bulletpoints" class="input" name="message" rows="7" cols="30"></textarea>
+    </div>
+
+    <br>
+
+
+    <button id="addnew" type="button" onclick="alert('would add fields for new points')">+points</button>
+    <div id="custom">
+      <%= link_to "create study guide", pages_generate_path %>
+    </div>
+  </div>
+
+
+
+
+</form>
