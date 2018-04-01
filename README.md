@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application will act as study guide generator that will allow people with executive function disorder to quickly input the information and output a fully formatted and organized study guide.
 
-Things you may want to cover:
+* Ruby version: ruby 2.3.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
