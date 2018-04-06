@@ -1,0 +1,153 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+  background-color: #9DB4C0;
+
+}
+
+
+.topnav {
+  background-color: #253237;
+  overflow: hidden;
+}
+
+/*  navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/*form format*/
+
+
+#term, #definition{
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+  margin-top: 25px;
+
+  border-color: #dbdbdb;
+  width: 225.222px;
+  height: 10.247px;
+  //-moz-border-radius: 8px;
+  //-webkit-border-radius: 8px;
+  //border-radius: 8px;
+  background: #E0FBFC;
+
+}
+
+#definition {
+  width: 400.222px;
+  height: 10.247px;
+}
+
+
+label{
+  padding: 10px;
+  display: inline-block;
+  margin-left: 0px;
+  text-align: right;
+}
+
+
+#mainpoints {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+  margin-top: 25px;
+
+  border-color: #dbdbdb;
+  width: 225.222px;
+  height: 10.247px;
+  //-moz-border-radius: 8px;
+  //-webkit-border-radius: 8px;
+  //border-radius: 8px;
+  background: #E0FBFC;
+}
+.studyform{
+  height:auto;
+  text-align: center;
+  display: block;
+  width:100%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+#bulletpoints{
+  width: 400.222px;
+  height: 75.208px;
+
+  min-width: 10%;
+  max-width: 75%;
+
+  max-height: 98%;
+
+  padding: 10px;
+
+  border-color: #dbdbdb;
+  //-moz-border-radius: 24.333px 24.333px 24.333px 24.333px / 22.559px 22.559px 22.559px 22.559px;
+  //-webkit-border-radius: 24.333px 24.333px 24.333px 24.333px / 22.559px 22.559px 22.559px 22.559px;
+  //border-radius: 24.333px 24.333px 24.333px 24.333px / 22.559px 22.559px 22.559px 22.559px;
+  background: #E0FBFC;
+}
+
+#addnew{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-color:#DBFEB8;
+  text-decoration: none;
+  width: 133.996px;
+  height: 37.394px;
+  -moz-border-radius: 18.697px;
+  -webkit-border-radius: 18.697px;
+  border-radius: 18.697px;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+#custom{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-color:#DBFEB8;
+text-decoration: none;
+  width: 133.996px;
+  height: 37.394px;
+  -moz-border-radius: 18.697px;
+  -webkit-border-radius: 18.697px;
+  border-radius: 18.697px;
+
+}
+
