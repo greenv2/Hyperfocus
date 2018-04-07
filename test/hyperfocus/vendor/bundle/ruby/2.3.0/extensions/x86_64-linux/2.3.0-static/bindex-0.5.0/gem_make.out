@@ -1,0 +1,15 @@
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/usr/local/ruby-2.3.1/bin/ruby -r ./siteconf20180407-11475-nr9dvt.rb extconf.rb
+creating Makefile
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20180407-11475-155jk7z/bindex

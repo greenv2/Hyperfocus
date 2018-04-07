@@ -1,0 +1,19 @@
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+/usr/local/ruby-2.3.1/bin/ruby -r ./siteconf20180407-11475-mjq4u6.rb extconf.rb
+creating Makefile
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/student1/gittest/hyperfocus/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20180407-11475-11eqk98/byebug
