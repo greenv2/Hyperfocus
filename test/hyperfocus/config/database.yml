@@ -82,4 +82,5 @@ production:
   <<: *default
   database: hyperfocus_production
   username: hyperfocus
-  password: <%= ENV['HYPERFOCUS_DATABASE_PASSWORD'] %>
+  password: password
+#  password: <%= ENV['HYPERFOCUS_DATABASE_PASSWORD'] %>
