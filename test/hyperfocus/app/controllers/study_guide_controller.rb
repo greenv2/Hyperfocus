@@ -6,9 +6,11 @@ class StudyGuideController < ApplicationController
   end
 
   def new
+    @study_guide = study_guide.new
   end
 
   def create
+    @study_guide = study_guide.new(sgparams)
   end
 
   def update
@@ -23,6 +25,7 @@ class StudyGuideController < ApplicationController
   end
 
   def sgparams
+    params.require(:sgform).permit(:title)
   end
 
 
