@@ -1,0 +1,19 @@
+current directory: /home/student1/Assignments/hyperfocus/test/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/usr/local/ruby-2.3.1/bin/ruby -r ./siteconf20180409-40618-vgv93c.rb extconf.rb
+creating Makefile
+
+current directory: /home/student1/Assignments/hyperfocus/test/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/student1/Assignments/hyperfocus/test/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling bcrypt_ext.c
+compiling wrapper.c
+compiling crypt.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/student1/Assignments/hyperfocus/test/hyperfocus/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20180409-40618-1xp1pzu
