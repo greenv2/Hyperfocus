@@ -1,0 +1,2 @@
+class Sgform < ApplicationRecord
+end
