@@ -11,12 +11,6 @@ class PagesController < ApplicationController
 
   def download
   end
-end
-
-class StudyGuide
-  @@Title = title
-  @@FileName = file
-  @@StyleSheet = ss
 
   def setTitle
   end
@@ -43,3 +37,4 @@ class StudyGuide
   end
 
 end
+
