@@ -9,15 +9,6 @@ class PagesController < ApplicationController
   def generate
   end
 
-  def download
-  end
-end
-
-class StudyGuide
-  @@Title = title
-  @@FileName = file
-  @@StyleSheet = ss
-
   def setTitle
   end
 
@@ -42,4 +33,6 @@ class StudyGuide
   def getContent
   end
 
+  def download
+  end
 end
