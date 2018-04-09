@@ -1,2 +1,3 @@
-class Sgform < ApplicationRecord
+class Sgform < ApplicationRecord::Base
+
 end
