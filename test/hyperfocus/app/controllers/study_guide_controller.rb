@@ -6,17 +6,17 @@ class StudyGuideController < ApplicationController
   end
 
   def new
-    @study_guide = study_guide.new
+    @study_guide = Study_guide.new
   end
 
   def create
-    @study_guide = study_guide.new(sgparams)
+    @study_guide = Study_guide.new(sgparams)
   end
 
   def update
   end
 
-  def destroy
+  def delete
   end
 
   private

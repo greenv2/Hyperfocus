@@ -9,9 +9,6 @@ class PagesController < ApplicationController
   def generate
   end
 
-  def download
-  end
-
   def setTitle
   end
 
@@ -36,5 +33,7 @@ class PagesController < ApplicationController
   def getContent
   end
 
+  def download
+  end
 end
 
