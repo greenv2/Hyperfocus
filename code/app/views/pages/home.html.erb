@@ -1,15 +1,23 @@
 <div class="topnav">
-<a class="active"  <%= link_to "Hyperfocus", root_path %>
+  <%= link_to root_path do %>
+   <%= image_tag 'HFlogo.png', :class => "hf" %>
+ <% end %>
   <!-- # =>  <a href="/">Home1</a> -->
 
-  <%= link_to "About", pages_download_path %>
+  <!-- <%= link_to "About", pages_download_path %> -->
+  <%= link_to pages_download_path do %>
+   <%= image_tag 'editstudyguide.png', :class => "nav" %>
+ <% end %>
   <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+  <%= link_to pages_new_path do %>
+   <%= image_tag 'newstudyguide.png', :class => "nav" %>
+  <% end %>
 
-  <%= link_to "New Study Guide", pages_new_path %>
+  <!--<%= link_to "New Study Guide", pages_new_path %>-->
   <!-- # => <!-- <a href="/pages/new">Home2</a> -->
 
 </div>
-<%= image_tag 'header.png', :class => "hf" %>
+<%= image_tag 'line-h.png' %>
 <div id="custom">
   <%= link_to "new study guide", pages_new_path %>
 </div>
