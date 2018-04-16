@@ -1,8 +1,8 @@
 .nav ul {
     list-style-type:none;
-    margin:0;
-    padding:0;
-
+    padding: 0 ;
+    margin-top: -10px;
+    margin-bottom: -12px;
     overflow: hidden;
 
 }
@@ -13,14 +13,14 @@
 }
 
 
-.nav li a {
+.nav li h1{
     display:block;
     min-width:140px;
     height: 60px;
     text-align: center;
     bottom: 0px;
 
-    line-height: 50px;
+   
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     font-size: 2em;
@@ -33,19 +33,19 @@
     border-right-color:#333;
     border-right-style:solid;
 }
-li.navbutt a {
+li.navbutt h1 {
   font-size: 1.6em;
   line-height: .7;
 }
 
-li.active a {
-  background-image: url('HF.png');
+li.active h1{
+  background: url('HF.png') no-repeat;
   background-size:100px;
   background-position: center;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
 }
 
-li#active a{
+li#active h1{
   background-image: url('HF.png');
   background-size:100px;
   background-position: center;
@@ -126,14 +126,17 @@ li#active a{
 .newbutt{
   /*background-color: #79B4BC;*/
   background-color: #FFFFFF;
-  background-image: url('buttondark.png');
+  background: url('buttondark.png') no-repeat;  
+//background-image: url('buttondark.png');
   color: #FFFFFF;
   text-decoration: none;
 
-  background-size:185px;
+  background-size:190px;
   background-position: center;
-  background-repeat: no-repeat;
+  text-decoration: none;  
+//background-repeat: no-repeat;
 
+  text-align:center;
   border:none;
   font-size: 1em;
 
@@ -144,16 +147,17 @@ li#active a{
 .editbutt{
   /*background-color: #2C666E;*/
   background-color: #FFFFFF;
-  background-image: url('buttonlight.png');
+  background: url('buttonlight.png')  no-repeat;
   color: #FFFFFF;
   text-decoration: none;
 
-  background-size:130px;
+  background-size:135px;
   background-position: center;
-  background-repeat: no-repeat;
+  text-align: center;
 
   border:none;
   font-size: 1em;
+  text-decoration: none;
 
   font-family: 'Roboto', sans-serif;
   font-weight: 300;

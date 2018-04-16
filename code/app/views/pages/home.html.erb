@@ -1,16 +1,16 @@
 <div class = "nav">
   <ul>
     <%= link_to root_path do %>
-        <li class ="active"><a>Hyper<br> &nbsp; &nbsp; &nbsp;&nbsp; Focus</a></li>
+      <li class ="active"><h1>Hyper<br> &nbsp; &nbsp; &nbsp;&nbsp; Focus</h1></li>
     <% end %>
 
     <%= link_to pages_new_path do %>
-        <li class ="navbutt"><a><br> + Study Guide</a></li>
+        <li class ="navbutt"><h1> <br> + Study Guide</h1></li>
     <% end %>
 
 
     <%= link_to pages_download_path do %>
-      <li class ="navbutt"><a><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</a></li>
+      <li class ="navbutt"><h1><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</h1></li>
     <% end %>
 
   </ul>
@@ -42,7 +42,7 @@
 
     <%= link_to pages_new_path do %>
     <h2 class ="newbutt">Create New Study Guide</h2>
-      <br>
+ 
   <%end%>
   <%= link_to pages_download_path do %>
     <h2 class ="editbutt">Edit Study Guide</h2>
