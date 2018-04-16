@@ -1,0 +1,19 @@
+current directory: /home/student1/Assignments/hyperfocus/code/vendor/bundle/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+/usr/local/ruby-2.3.1/bin/ruby -r ./siteconf20180416-19492-1jjd357.rb extconf.rb
+creating Makefile
+
+current directory: /home/student1/Assignments/hyperfocus/code/vendor/bundle/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/student1/Assignments/hyperfocus/code/vendor/bundle/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/student1/Assignments/hyperfocus/code/vendor/bundle/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20180416-19492-9tu2cq/byebug
