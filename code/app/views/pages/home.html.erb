@@ -1,15 +1,69 @@
+<div class = "nav">
+  <ul>
+    <%= link_to root_path do %>
+        <li class ="active">Hyper<br> &nbsp; &nbsp; &nbsp;&nbsp; Focus</li>
+    <% end %>
+
+    <%= link_to pages_new_path do %>
+        <li class ="navbutt"><a href="create.html"><br> + Study Guide</a></li>
+    <% end %>
+
+
+    <%= link_to pages_About_path do %>
+      <li class ="navbutt"><a href="#"><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</a></li>
+    <% end %>
+
+  </ul>
+
+  <div class ="line">
+    <%= image_tag 'line-h.png' %>
+  </div>
+
+  </div>
+
+  <div class ="blurb">
+    <h1>HyperFocus</h1>
+    <p> HyperFocus is studyguide generator created to help make learning easier for people with attention deficit disorders / studyguide generator created to help make learning easier for people with attention deficit disorders</p>
+</div>
+
+<div class = "explanation">
+  <%= image_tag 'preview.png',:class => "preview" %>
+  <div class="divider"></div>
+  <div class ="GetStarted">
+    <h2> Get Started Today</h2>
+    <ol>
+      <li> Click Create New Study Guide </li>
+      <li> Enter your notes </li>
+      <li> Add fields as necessary </li>
+      <li> Click Generate Study Guide </li>
+      <li> Download and Enjoy! </li>
+
+    </ol>
+
+    <%= link_to pages_new_path do %>
+    <h2 class ="newbutt">Create New Study Guide</h2>
+      <br>
+  <%end%>
+  <%= link_to pages_About_path do %>
+    <h2 class ="editbutt">Edit Study Guide</h2>
+  <%end%>
+  </div>
+</div>
+
+<!--
 <div class="topnav">
 <a class="active"  <%= link_to "Hyperfocus", root_path %>
-  <!-- # =>  <a href="/">Home1</a> -->
+
 
   <%= link_to "About", pages_download_path %>
-  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+
 
   <%= link_to "New Study Guide", pages_new_path %>
-  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+
 
 </div>
 <%= image_tag 'header.png', :class => "hf" %>
 <div id="custom">
   <%= link_to "new study guide", pages_new_path %>
 </div>
+-->
