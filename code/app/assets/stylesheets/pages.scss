@@ -8,29 +8,25 @@ body {
   margin: 0;
   height: 100%;
 
-  background-color: #FFFFFF;
+  background-color: #9DB4C0;
 
 }
 
 
 .topnav {
-  padding-top: 15px;
-  background-color: #FFFFFF;
+  background-color: #253237;
   overflow: hidden;
-  bottom:0px;
 }
 
 /*  navigation bar */
 .topnav a {
   float: left;
-  color: #f0edee;
+  color: #ffd;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  border-radius: 15px 15px 0px 0px;
-  display: inline-block;
-  bottom:0px;
+  border-color: white;
 }
 
 /* Change the color of links on hover */
@@ -42,8 +38,7 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #90ddf0;
-  font-weight: bold;
+  background-color: #4CAF50;
   color: white;
 }
 
@@ -82,16 +77,7 @@ label{
   text-align: right;
 }
 
-.hf{
-  width:50%;
-}
-.nav{
-  width:60%;
-}
 
-.woot{
-  width: 10%;
-}
 #mainpoints {
   margin-left: auto;
   margin-right: auto;
