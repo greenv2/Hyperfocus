@@ -1,16 +1,20 @@
+<%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:300|Roboto'%>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+
+
 <div class = "nav">
   <ul>
     <%= link_to root_path do %>
       <li ><h1>Hyper<br> &nbsp; &nbsp; &nbsp;&nbsp; Focus</h1></li>
     <% end %>
 
-    <%= link_to pages_new_path do %>
-        <li class ="navbutt"><h1> <br> + Study Guide</h1></li>
+    <%= link_to new_study_guide_path do %>
+        <li class ="navbutt" id="active"><h1> <br> + Study Guide</h1></li>
     <% end %>
 
 
     <%= link_to pages_edit_path do %>
-      <li class ="navbutt" id ="active" ><h1><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</h1></li>
+      <li class ="navbutt" id='active'><h1><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</h1></li>
     <% end %>
 
   </ul>
@@ -19,7 +23,7 @@
     <%= image_tag 'line-h.png' %>
   </div>
 
-  </div>
+</div>
 
   <div class = "upload-blurb">
     <h1> Upload Study Guide</h1>

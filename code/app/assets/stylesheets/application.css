@@ -18,8 +18,8 @@
  .nav ul {
      list-style-type:none;
      padding: 0 ;
- margin-top: -10px;
- margin-bottom: -12px;
+     margin-top: -20px;
+     margin-bottom: -12px;
      overflow: hidden;
 
  }
@@ -41,7 +41,7 @@
      font-family: 'Amatic SC', cursive;
      font-weight: bold;
      font-size: 2em;
-     line-height: 2;
+     line-height: 1.5;
      color: #333;
      background: #FFFFFF;
      text-decoration: none;
