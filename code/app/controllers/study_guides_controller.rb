@@ -56,8 +56,8 @@ class StudyGuidesController < ApplicationController
       html_file.puts "<body>"
       #send_data("<body>"=> 'temp.html')
 
-      html_file.puts study_guide_params
-      html_file.puts params
+      html_file.puts study_guide_params.to_h
+      html_file.puts params.to_h
       #send_data(study_guide_params => 'temp.html')
 
       html_file.puts "</body>"
