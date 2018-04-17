@@ -1,7 +1,8 @@
-class CreateSgfields < ActiveRecord::Migration[5.0]
+class CreateSgfields < ActiveRecord::Migration[5.1]
+
   def change
     create_table :sgfields do |t|
-      t.references :study_guide, foreign_key: true
+      t.belongs_to :study_guide, foreign_key: true
       t.string :type
       t.string :content
 

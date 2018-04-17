@@ -1,22 +1,27 @@
-<%= form_for(study_guide) do |f| %>
-  <% if study_guide.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(study_guide.errors.count, "error") %> prohibited this study_guide from being saved:</h2>
+<%= simple_form_for(@study_guide) do |f| %>
+  <%= f.error_notification %>
 
-      <ul>
-      <% study_guide.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+  <div class="form-inputs">
+    <%= f.input :title %>
+  </div>
+
+  <table class='sgtable'>
+    <thead>
+    <tr>
+      <th></th>
+      <th>Field Type</th>
+      <th>Content</th>
+    </tr>
+    </thead>
+    <tbody class='sgfields'>
+    <%= f.simple_fields_for :sgfields do |builder| %>
+      <%= render 'sgfield_fields', f: builder %>
+    <% end %>
+    </tbody>
+  </table>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+      <%= link_to_add_association 'Add Field', f, :sgfields, class: 'button', data: { association_insertion_node: '.sgfields', association_insertion_method: :append } %>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
 <% end %>

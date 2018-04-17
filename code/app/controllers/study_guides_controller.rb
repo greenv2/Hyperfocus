@@ -15,6 +15,7 @@ class StudyGuidesController < ApplicationController
   # GET /study_guides/new
   def new
     @study_guide = StudyGuide.new
+
   end
 
   # GET /study_guides/1/edit
@@ -26,28 +27,20 @@ class StudyGuidesController < ApplicationController
   def create
     @study_guide = StudyGuide.new(study_guide_params)
 
-    respond_to do |format|
-      if @study_guide.save
-        format.html { redirect_to @study_guide, notice: 'Study guide was successfully created.' }
-        format.json { render :show, status: :created, location: @study_guide }
-      else
-        format.html { render :new }
-        format.json { render json: @study_guide.errors, status: :unprocessable_entity }
-      end
+    if @study_guide.save
+      redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
+    else
+      render :new
     end
   end
 
   # PATCH/PUT /study_guides/1
   # PATCH/PUT /study_guides/1.json
   def update
-    respond_to do |format|
-      if @study_guide.update(study_guide_params)
-        format.html { redirect_to @study_guide, notice: 'Study guide was successfully updated.' }
-        format.json { render :show, status: :ok, location: @study_guide }
-      else
-        format.html { render :edit }
-        format.json { render json: @study_guide.errors, status: :unprocessable_entity }
-      end
+    if @study_guide.update(study_guide_params)
+      redirect_to edit_study_guide_path(@study_guide), notice:'Study Guide Successfully Updated'
+    else
+      render :edit
     end
   end
 
@@ -55,20 +48,18 @@ class StudyGuidesController < ApplicationController
   # DELETE /study_guides/1.json
   def destroy
     @study_guide.destroy
-    respond_to do |format|
-      format.html { redirect_to study_guides_url, notice: 'Study guide was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    redirect_to study_guides_url, notice: 'Study Guide was successfully destroyed.'
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_study_guide
-      @study_guide = StudyGuide.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_study_guide
+    @study_guide = StudyGuide.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def study_guide_params
-      params.require(:study_guide).permit(:title)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def study_guide_params
+    params.require(:study_guide).permit(:title, sgfields_attributes: Sgfield.attribute_names.map(&:to_sym).push(:_destroy))
+  end
+
 end
