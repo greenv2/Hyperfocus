@@ -14,6 +14,7 @@ class StudyGuidesController < ApplicationController
 
   # GET /study_guides/new
   def new
+    puts "making it!"
     @study_guide = StudyGuide.new
 
   end
