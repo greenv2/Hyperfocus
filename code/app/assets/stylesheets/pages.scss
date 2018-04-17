@@ -20,7 +20,7 @@
     text-align: center;
     bottom: 0px;
 
-   
+
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     font-size: 2em;
@@ -126,14 +126,14 @@ li#active h1{
 .newbutt{
   /*background-color: #79B4BC;*/
   background-color: #FFFFFF;
-  background: url('buttondark.png') no-repeat;  
+  background: url('buttondark.png') no-repeat;
 //background-image: url('buttondark.png');
   color: #FFFFFF;
   text-decoration: none;
 
   background-size:190px;
   background-position: center;
-  text-decoration: none;  
+  text-decoration: none;
 //background-repeat: no-repeat;
 
   text-align:center;
@@ -166,3 +166,18 @@ li#active h1{
   border-right: 2px solid blue;
   float: left;
 }*/
+
+
+/* Edit Page*/
+
+.upload-blurb{
+  padding:  0 100px 0 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.upload-blurb h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size: 2em;
+}
