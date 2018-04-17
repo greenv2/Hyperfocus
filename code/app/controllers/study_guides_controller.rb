@@ -36,7 +36,7 @@ class StudyGuidesController < ApplicationController
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-      }
+     
 
       html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
@@ -57,22 +57,22 @@ class StudyGuidesController < ApplicationController
       #send_data("<body>"=> 'temp.html')
 
       toprint_hash = study_guide_params.to_h
-      title = toprint.select { |key, value| key.to_s.match(/^title\d+/)
-      html_file.puts "<h1>" + title +"</h1>"
+      title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
+      html_file.puts  title.to_s
       toprint_hash.delete(title)
 
       toprint_hash each do |field, value|
         value.each do |type , content|
-          case type
-          when 'Heading'
-            html_file.puts "<h1> content is" + content + "</h1>"
-          when 'Mainpoint'
-          when 'bullet point'
-          when 'numbering'
-          when 'term definition'
-          else
+          #case type
+         # if type == 'Heading'
+         #   html_file.puts "<h1> content is" + content + "</h1>"
+         # else if type == 'Mainpoint'
+         # else if type == 'bullet point'
+         # else if type == 'numbering'
+         # else if type == 'term definition'
+         # else
             html_file.puts "<h1> content is" + content + " and type is" + type + "</h1>"
-          end
+         # end
 
         end
 
@@ -91,10 +91,11 @@ class StudyGuidesController < ApplicationController
 
       redirect_to pages_download_path, notice: 'Study Guide Form was Successfully created.'
 
-    else
-      redirect_to pages_new_path
+    #else
+      #redirect_to pages_new_path
       #render :new
     end
+	end
   end
 
   # PATCH/PUT /study_guides/1
