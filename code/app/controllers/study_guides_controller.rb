@@ -39,31 +39,31 @@ class StudyGuidesController < ApplicationController
       title = params.select { |key, value| key.to_s.match(/^title\d+/) }
 
       html_file = File.new('public/temp.html', "w+")
-      send_data("<!DOCTYPE html>" => 'temp.html')
+      #send_data("<!DOCTYPE html>" => 'temp.html')
       html_file.puts "<!DOCTYPE html>"
-      send_data("<html lang=\"en\"> " => 'temp.html')
+      #send_data("<html lang=\"en\"> " => 'temp.html')
       html_file.puts "<html lang=\"en\"> "
-      send_data("<head>"=> 'temp.html')
+      #send_data("<head>"=> 'temp.html')
       html_file.puts "<head>"
-      send_data("<meta charset=\"UTF-8\">"=> 'temp.html')
+      #send_data("<meta charset=\"UTF-8\">"=> 'temp.html')
       html_file.puts "<meta charset=\"UTF-8\">"
 
       #style sheet
       # fonts
-      send_data( "</head>" => 'temp.html')
+      #send_data( "</head>" => 'temp.html')
       html_file.puts "</head>"
 
       html_file.puts "<body>"
-      send_data("<body>"=> 'temp.html')
+      #send_data("<body>"=> 'temp.html')
 
       html_file.puts study_guide_params
-      send_data(study_guide_params => 'temp.html')
+      s#end_data(study_guide_params => 'temp.html')
 
       html_file.puts "</body>"
-      send_data("</body>"=> 'temp.html')
-      
+      #send_data("</body>"=> 'temp.html')
+
       html_file.puts "</html>"
-      send_data("</html>"=> 'temp.html')
+      #end_data("</html>"=> 'temp.html')
       html_file.close
 
 
