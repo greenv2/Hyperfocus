@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  study_guide: one
+  type: 
+  content: MyString
+
+two:
+  study_guide: two
+  type: 
+  content: MyString

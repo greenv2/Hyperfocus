@@ -1,0 +1,2 @@
+class StudyGuide < ApplicationRecord
+end

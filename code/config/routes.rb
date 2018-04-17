@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :study_guides
   get 'pages/edit'
 
   #set the index page

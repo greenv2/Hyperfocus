@@ -172,10 +172,13 @@ li#active h1{
 
 .upload-blurb{
   padding:  0 100px 0 100px;
+  margin-top: 25px;
   text-align: center;
   border: 2px solid black;
   width: 300px;
   height: 400px;
+  margin: 0 auto;
+  //justify-content: center;
 }
 
 .upload-blurb h1{
