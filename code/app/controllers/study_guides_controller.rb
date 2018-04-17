@@ -26,7 +26,7 @@ class StudyGuidesController < ApplicationController
   # POST /study_guides.json
   def create
     @study_guide = StudyGuide.new(study_guide_params)
-
+    puts 'creating it!'
     if @study_guide.save
       redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
     else
