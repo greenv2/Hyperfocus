@@ -54,9 +54,11 @@ class StudyGuidesController < ApplicationController
 
 
     if @study_guide.save
-      redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
+      #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
+      redirect_to pages_download_path
     else
-      render :new
+      redirect_to pages_new_path
+      #render :new
     end
   end
 
