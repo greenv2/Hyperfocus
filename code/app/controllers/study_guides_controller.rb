@@ -36,7 +36,7 @@ class StudyGuidesController < ApplicationController
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-
+      }
 
       html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
@@ -65,6 +65,7 @@ class StudyGuidesController < ApplicationController
         value.each do |type , content|
           case type
           when 'Heading'
+            html_file.puts "<h1> content is" + content + "</h1>"
           when 'Mainpoint'
           when 'bullet point'
           when 'numbering'
@@ -78,10 +79,6 @@ class StudyGuidesController < ApplicationController
 
       end
 
-
-
-      html_file.puts
-      html_file.puts params.to_h
       #send_data(study_guide_params => 'temp.html')
 
       html_file.puts "</body>"
