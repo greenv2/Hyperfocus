@@ -36,7 +36,7 @@ class StudyGuidesController < ApplicationController
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-      title = params.select { |key, value| key.to_s.match(/^title\d+/) }
+      }
 
       html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
@@ -56,7 +56,31 @@ class StudyGuidesController < ApplicationController
       html_file.puts "<body>"
       #send_data("<body>"=> 'temp.html')
 
-      html_file.puts study_guide_params.to_h
+      toprint_hash = study_guide_params.to_h
+      title = toprint.select { |key, value| key.to_s.match(/^title\d+/)
+      html_file.puts "<h1>" + title +"</h1>"
+      toprint_hash.delete(title)
+
+      toprint_hash each do |field, value|
+        value.each do |type , content|
+          case type
+          when 'Heading'
+          when 'Mainpoint'
+          when 'bullet point'
+          when 'numbering'
+          when 'term definition'
+          else
+            html_file.puts "<h1> content is" + content + " and type is" + type + "</h1>"
+          end
+
+        end
+
+
+      end
+
+
+
+      html_file.puts
       html_file.puts params.to_h
       #send_data(study_guide_params => 'temp.html')
 
