@@ -36,7 +36,7 @@ class StudyGuidesController < ApplicationController
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-      }
+
 
       html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
