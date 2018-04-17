@@ -27,7 +27,32 @@ class StudyGuidesController < ApplicationController
   # POST /study_guides.json
   def create
     @study_guide = StudyGuide.new(study_guide_params)
-    puts "creating it!"
+
+
+        title = params.select { |key, value| key.to_s.match(/^title\d+/) }
+
+        html_file = File.new('temp.html.erb', "w+")
+        html_file.puts "<!DOCTYPE html>"
+        html_file.puts "<html lang=\"en\"> "
+
+        html_file.puts "<head>"
+        html_file.puts "<meta charset=\"UTF-8\">"
+
+        #style sheet
+        # fonts
+
+        html_file.puts "</head>"
+        html_file.puts "<body>"
+
+        html_file.puts sty_guide_params
+
+        html_file.puts "</body>"
+        html_file.puts "</html>"
+        html_file.close
+
+        #wicked_pdf stuff
+
+
     if @study_guide.save
       redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
     else
