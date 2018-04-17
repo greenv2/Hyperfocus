@@ -1,24 +1,35 @@
-<div class="topnav">
-<a <%= link_to "Hyperfocus", root_path %>
-  <!-- # =>  <a href="/">Home1</a> -->
+<%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:300|Roboto'%>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
 
-<a class="active" <%= link_to "About", pages_download_path %>
-  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
 
-<a  <%= link_to "New Study Guide", pages_new_path %>
-  <!-- # => <!-- <a href="/pages/new">Home2</a> -->
+<div class = "nav">
+  <ul>
+    <%= link_to root_path do %>
+      <li id="active" ><h1>Hyper<br> &nbsp; &nbsp; &nbsp;&nbsp; Focus</h1></li>
+    <% end %>
 
-</div>
+    <%= link_to new_study_guide_path do %>
+        <li class ="navbutt"><h1><br> <br> + Study Guide</h1></li>
+    <% end %>
 
+
+    <%= link_to pages_edit_path do %>
+      <li class ="navbutt"><h1><br><br><%= image_tag 'pencil.png',:class => "icon" %> Study Guide</h1></li>
+    <% end %>
+
+  </ul>
+
+  <div class ="line">
+    <%= image_tag 'line-h.png' %>
+  </div>
+
+  </div>
 <body>
 
-study guide generator that will allow them to quickly input the information and output a fully formatted and organized study guide.
+  <h1> This page would show a preview of the study guide and option to download</h1>
+
+  <button id="newbutt" type="button" onclick="alert('download pdf')">download</button>
+
+  <%= link_to "example", public/temp.html %>
 
 </body>
-
-<%= image_tag("preview of dashboard.png")%>
-
-<br>
-<br>
-<br>
-<%= image_tag("studyguide form.png")%>

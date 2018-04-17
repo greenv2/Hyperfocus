@@ -1,18 +1,31 @@
+# Name: Victoria Green
+# Course: CSC 415
+# Semester: Spring 2018
+# Instructor: Dr. Pulimood
+# Project name: hyperfocus
+# Description: studyguide generator
+# Filename: study_guides_controller.rb
+# Description: Study guide controller initializing creating and exporting
+
+
 class StudyGuidesController < ApplicationController
   before_action :set_study_guide, only: [:show, :edit, :update, :destroy]
 
   # GET /study_guides
   # GET /study_guides.json
+  #automatically generated
   def index
     @study_guides = StudyGuide.all
   end
 
   # GET /study_guides/1
   # GET /study_guides/1.json
+  #automatically generated
   def show
   end
 
   # GET /study_guides/new
+  #automatically generated
   def new
     puts "making it!"
     @study_guide = StudyGuide.new
@@ -20,23 +33,28 @@ class StudyGuidesController < ApplicationController
   end
 
   # GET /study_guides/1/edit
+  #automatically generated
   def edit
   end
 
   # POST /study_guides
   # POST /study_guides.json
+  #automatically generated
+
+  # user has filled in form and has selected create study Guide
+  # function takes input and saves it in params
+  # an html file is created and intialized the essentials
+  # potentially the user inputs would be entered into it with the appropriate tags (to be implemented)
+  # after html file is created it would be converted into a pdf (to be implemented) and would re route to download pages_edit_path
+  # indicating sucess and that the user can download now
+
   def create
     @study_guide = StudyGuide.new(study_guide_params)
-
-
-
-
-        #wicked_pdf stuff
-
+    #wicked_pdf stuff
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-     
+
 
       html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
@@ -55,14 +73,32 @@ class StudyGuidesController < ApplicationController
 
       html_file.puts "<body>"
       #send_data("<body>"=> 'temp.html')
+      html_file.puts "<h1>"
+      html_file.puts  'title'
+      html_file.puts "</h1>"
+
+      html_file.puts "<h2>"
+      html_file.puts  'Mainpoint'
+      html_file.puts "</h2>"
+
+      html_file.puts "<ul>"
+      html_file.puts  "<li> bullet point </li> "
+      html_file.puts  "<li> bullet point </li>"
+      html_file.puts "</ul>"
+
+      html_file.puts "<ol>"
+      html_file.puts  "<li> numbering </li> "
+      html_file.puts  "<li> number </li>"
+      html_file.puts "</ol>"
 
       toprint_hash = study_guide_params.to_h
-      title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
-      html_file.puts  title.to_s
-      toprint_hash.delete(title)
+      html_file.puts toprint_hash
+      #title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
+      #html_file.puts  title.to_s
+      #toprint_hash.delete(title)
 
-      toprint_hash each do |field, value|
-        value.each do |type , content|
+      #toprint_hash each do |field, value|
+        #value.each do |type , content|
           #case type
          # if type == 'Heading'
          #   html_file.puts "<h1> content is" + content + "</h1>"
@@ -71,13 +107,13 @@ class StudyGuidesController < ApplicationController
          # else if type == 'numbering'
          # else if type == 'term definition'
          # else
-            html_file.puts "<h1> content is" + content + " and type is" + type + "</h1>"
+            #html_file.puts "<h1> content is" + content + " and type is" + type + "</h1>"
          # end
 
-        end
+      #  end
 
 
-      end
+    #  end
 
       #send_data(study_guide_params => 'temp.html')
 
@@ -96,10 +132,11 @@ class StudyGuidesController < ApplicationController
       #render :new
     end
 	end
-  
+
 
   # PATCH/PUT /study_guides/1
   # PATCH/PUT /study_guides/1.json
+  # automatically generated function that would update values of studyguide
   def update
     if @study_guide.update(study_guide_params)
       redirect_to edit_study_guide_path(@study_guide), notice:'Study Guide Successfully Updated'
@@ -110,6 +147,8 @@ class StudyGuidesController < ApplicationController
 
   # DELETE /study_guides/1
   # DELETE /study_guides/1.json
+  #automatically generated
+  #Delete study guide
   def destroy
     @study_guide.destroy
     redirect_to study_guides_url, notice: 'Study Guide was successfully destroyed.'
@@ -121,7 +160,7 @@ class StudyGuidesController < ApplicationController
     @study_guide = StudyGuide.find(params[:id])
   end
 
-  # Never trust parameters from the scary internet, only allow the white list through.
+  #automatically generated.
   def study_guide_params
     params.require(:study_guide).permit(:title, sgfields_attributes: Sgfield.attribute_names.map(&:to_sym).push(:_destroy))
   end
