@@ -29,33 +29,46 @@ class StudyGuidesController < ApplicationController
     @study_guide = StudyGuide.new(study_guide_params)
 
 
-        title = params.select { |key, value| key.to_s.match(/^title\d+/) }
 
-        html_file = File.new('temp.html.erb', "w+")
-        html_file.puts "<!DOCTYPE html>"
-        html_file.puts "<html lang=\"en\"> "
-
-        html_file.puts "<head>"
-        html_file.puts "<meta charset=\"UTF-8\">"
-
-        #style sheet
-        # fonts
-
-        html_file.puts "</head>"
-        html_file.puts "<body>"
-
-        html_file.puts study_guide_params
-
-        html_file.puts "</body>"
-        html_file.puts "</html>"
-        html_file.close
 
         #wicked_pdf stuff
 
 
     if @study_guide.save
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
-      redirect_to pages_download_path
+      title = params.select { |key, value| key.to_s.match(/^title\d+/) }
+
+      html_file = File.new('public/temp.html', "w+")
+      send_data("<!DOCTYPE html>" => 'temp.html')
+      html_file.puts "<!DOCTYPE html>"
+      send_data("<html lang=\"en\"> " => 'temp.html')
+      html_file.puts "<html lang=\"en\"> "
+      send_data("<head>"=> 'temp.html')
+      html_file.puts "<head>"
+      send_data("<meta charset=\"UTF-8\">"=> 'temp.html')
+      html_file.puts "<meta charset=\"UTF-8\">"
+
+      #style sheet
+      # fonts
+      send_data( "</head>" => 'temp.html')
+      html_file.puts "</head>"
+
+      html_file.puts "<body>"
+      send_data("<body>"=> 'temp.html')
+
+      html_file.puts study_guide_params
+      send_data(study_guide_params => 'temp.html')
+
+      html_file.puts "</body>"
+      send_data("</body>"=> 'temp.html')
+      
+      html_file.puts "</html>"
+      send_data("</html>"=> 'temp.html')
+      html_file.close
+
+
+      redirect_to pages_download_path, notice: 'Study Guide Form was Successfully created.'
+
     else
       redirect_to pages_new_path
       #render :new
