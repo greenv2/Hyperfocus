@@ -93,6 +93,27 @@ class StudyGuidesController < ApplicationController
 
       toprint_hash = study_guide_params.to_h
       html_file.puts toprint_hash
+
+
+      topprint_hash.each do |curr, currVal|
+        if curr.to_s == 'title'
+          html_file.puts "<h1>" + curr=>currVal.to_s + "</h1>"
+        elsif curr.to_s == 'sgfields_attributes'
+          separatefields_hash = curr.to_h
+
+          separatefields_hash.each do |number, info|
+            information_hash = info.to_h
+            html_file.puts information_hash
+
+            end
+
+          end
+
+
+        end
+      end
+
+
       #title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
       #html_file.puts  title.to_s
       #toprint_hash.delete(title)
