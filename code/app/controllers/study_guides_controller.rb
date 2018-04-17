@@ -107,11 +107,11 @@ class StudyGuidesController < ApplicationController
 
             end
 
-          end
+        end
 
 
         end
-      end
+      
 
 
       #title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
