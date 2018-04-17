@@ -44,7 +44,7 @@ class StudyGuidesController < ApplicationController
         html_file.puts "</head>"
         html_file.puts "<body>"
 
-        html_file.puts sty_guide_params
+        html_file.puts study_guide_params
 
         html_file.puts "</body>"
         html_file.puts "</html>"
