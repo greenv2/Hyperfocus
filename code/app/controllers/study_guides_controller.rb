@@ -91,12 +91,12 @@ class StudyGuidesController < ApplicationController
 
       redirect_to pages_download_path, notice: 'Study Guide Form was Successfully created.'
 
-    #else
-      #redirect_to pages_new_path
+    else
+      redirect_to pages_new_path
       #render :new
     end
 	end
-  end
+  
 
   # PATCH/PUT /study_guides/1
   # PATCH/PUT /study_guides/1.json
