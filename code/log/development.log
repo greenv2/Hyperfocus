@@ -9938,3 +9938,63 @@ Processing by PagesController#download as HTML
 Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-18 14:50:00 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-18 14:50:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.5ms)
+  Rendered study_guides/_form.html.erb (24.5ms)
+  Rendered study_guides/new.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 56ms (Views: 46.7ms | ActiveRecord: 1.1ms)
+
+
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (2.8ms)
+  Rendered study_guides/_form.html.erb (13.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 42ms (Views: 34.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-18 15:11:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+Started GET "/" for 159.91.70.228 at 2018-04-18 15:11:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 87ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/home.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-18 15:33:24 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-18 15:41:31 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (91.1ms)
+Completed 200 OK in 117ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-18 15:41:35 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
