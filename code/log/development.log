@@ -8180,3 +8180,1761 @@ app/controllers/study_guides_controller.rb:129: syntax error, unexpected keyword
   Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:01:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (228.1ms)
+Completed 200 OK in 276ms (Views: 269.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:01:57 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (5.8ms)
+  Rendered study_guides/_form.html.erb (114.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (123.9ms)
+Completed 200 OK in 154ms (Views: 141.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:01:58 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 159.91.70.228 at 2018-04-17 15:01:59 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:01:59 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:02:01 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (11.9ms)
+  Rendered study_guides/_form.html.erb (17.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:02:01 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (8.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:02:01 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (8.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:02:02 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 159.91.70.228 at 2018-04-17 15:02:03 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:02:04 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/5/edit" for 159.91.70.228 at 2018-04-17 15:04:07 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mStudyGuide Load (0.4ms)[0m  [1m[34mSELECT  "study_guides".* FROM "study_guides" WHERE "study_guides"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering study_guides/edit.html.erb within layouts/application
+  [1m[36mSgfield Load (0.2ms)[0m  [1m[34mSELECT "sgfields".* FROM "sgfields" WHERE "sgfields"."study_guide_id" = ?[0m  [["study_guide_id", 5]]
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_sgfield_fields.html.erb (2.8ms)
+  Rendered study_guides/_sgfield_fields.html.erb (2.7ms)
+  Rendered study_guides/_sgfield_fields.html.erb (3.3ms)
+  Rendered study_guides/_form.html.erb (28.4ms)
+  Rendered study_guides/edit.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 51ms (Views: 46.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:04:12 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:05:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:05:10 +0000
+  Rendering pages/edit.html.erb within layouts/application
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:05:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+Processing by StudyGuidesController#new as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (73.7ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered study_guides/_sgfield_fields.html.erb (3.6ms)
+  Rendered study_guides/_form.html.erb (9.2ms)
+  Rendered pages/home.html.erb within layouts/application (57.3ms)
+  Rendered study_guides/new.html.erb within layouts/application (52.7ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 86ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:05:14 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:05:15 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:05:17 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:05:18 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:05:21 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.9ms)
+  Rendered study_guides/_form.html.erb (9.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:05:22 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:05:23 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:05:23 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:05:30 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (10.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 15:05:35 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BHnKIEKX5Rpos12l8AQUlwDNxTIfeeV4JjhyF7RuvONWD/5iawuNE7nZN4ADRp4gjB15WXGsx+vBbs0lMeWPkQ==", "study_guide"=>{"title"=>"", "sgfields_attributes"=>{"1523977532308"=>{"_destroy"=>"false", "type"=>"", "content"=>""}, "1523977533119"=>{"_destroy"=>"false", "type"=>"", "content"=>""}, "1523977533836"=>{"_destroy"=>"false", "type"=>"", "content"=>""}, "1523977534538"=>{"_destroy"=>"false", "type"=>"", "content"=>""}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-04-17 15:05:35.234864"], ["updated_at", "2018-04-17 15:05:35.234864"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 11ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 15:05:35 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/public/temp.html" for 159.91.70.228 at 2018-04-17 15:05:39 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/public/temp.html"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:20:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (4.3ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.8ms)
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 15:05:46 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 15:06:46 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:06:47 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:06:48 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.7ms)
+  Rendered study_guides/_form.html.erb (9.8ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:06:48 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:06:49 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:06:51 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:06:51 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:06:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (9.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:06:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:06:54 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:06:55 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:06:57 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:06:57 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.0ms)
+  Rendered study_guides/_form.html.erb (8.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 15:06:59 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZHLDGBdXfMIxMRAj4+x0RtvaErNj0vEF+0rYkRHTiMc2BPdaPssUy+BbegYQrv7xVwqu2A0H05YcHGejlFi7tQ==", "study_guide"=>{"title"=>""}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-04-17 15:06:59.586927"], ["updated_at", "2018-04-17 15:06:59.586927"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 9ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 15:06:59 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:07:08 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:07:09 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.6ms)
+  Rendered study_guides/_form.html.erb (9.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:07:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:07:26 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:07:27 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.7ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:07:28 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:24:40 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:24:49 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (8.3ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:24:49 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:24:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 15:24:52 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:24:52 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (10.9ms)
+  Rendered study_guides/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:24:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 15:24:56 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (9.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:28:05 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:29:29 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 15:31:23 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.105.233 at 2018-04-17 15:35:54 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.105.233 at 2018-04-17 15:57:52 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (8.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.105.233 at 2018-04-17 15:58:49 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LNEqQHt2cfeysHcm5LjwS+cNcXdobMxD/IclmLgvO6EMPmOe8SihitfNTEoMe0WQ1IHzYXq3U6zDAcZ97W1XGQ==", "study_guide"=>{"title"=>"sdfsdf", "sgfields_attributes"=>{"1523980654644"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"sdfsdf"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "sdfsdf"], ["created_at", "2018-04-17 15:58:49.518498"], ["updated_at", "2018-04-17 15:58:49.518498"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 18], ["type", "Heading"], ["content", "sdfsdf"], ["created_at", "2018-04-17 15:58:49.520548"], ["updated_at", "2018-04-17 15:58:49.520548"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 13ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/pages/download" for 159.91.105.233 at 2018-04-17 15:58:49 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/public/temp.html" for 159.91.105.233 at 2018-04-17 15:58:52 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/public/temp.html"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:20:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (3.9ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.8ms)
+Started GET "/pages/download" for 159.91.105.233 at 2018-04-17 15:58:55 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.105.233 at 2018-04-17 15:59:52 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LNEqQHt2cfeysHcm5LjwS+cNcXdobMxD/IclmLgvO6EMPmOe8SihitfNTEoMe0WQ1IHzYXq3U6zDAcZ97W1XGQ==", "study_guide"=>{"title"=>""}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-04-17 15:59:52.945902"], ["updated_at", "2018-04-17 15:59:52.945902"]]
+  [1m[35m (15.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 20ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/pages/download" for 159.91.105.233 at 2018-04-17 15:59:52 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.105.233 at 2018-04-17 15:59:58 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.6ms)
+  Rendered study_guides/_form.html.erb (9.6ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.105.233 at 2018-04-17 15:59:59 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R8vU6ju3NqOc4KgyseGBk3OPSzOi+nvUXmQYSGd3nLlnJJ00senm3vmdk15ZIjRIQAPJJbAh5Dth4vutMjXwAQ==", "study_guide"=>{"title"=>""}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-04-17 15:59:59.457728"], ["updated_at", "2018-04-17 15:59:59.457728"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 8ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/pages/download" for 159.91.105.233 at 2018-04-17 15:59:59 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/public/temp.html" for 159.91.105.233 at 2018-04-17 16:00:32 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/public/temp.html"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:20:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (4.0ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.3ms)
+Started GET "/pages/download" for 159.91.105.233 at 2018-04-17 16:01:02 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.105.233 at 2018-04-17 16:01:05 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.105.233 at 2018-04-17 16:01:06 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.105.233 at 2018-04-17 16:01:09 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.105.233 at 2018-04-17 16:12:30 +0000
+Cannot render console from 159.91.105.233! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 16:30:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 16:30:27 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.5ms)
+  Rendered study_guides/_form.html.erb (9.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 16:30:45 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TpmqzgHpP034zm9gcjvvfTGqfIQVbXqRCmpRS6lu44Ac756MKHVXRCmkBUWBeWXKvXrA73u4WALtPO55LOXQ8g==", "study_guide"=>{"title"=>""}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-04-17 16:30:45.702233"], ["updated_at", "2018-04-17 16:30:45.702233"]]
+  [1m[35m (19.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 23ms (ActiveRecord: 19.3ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 16:30:45 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 16:30:47 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 16:30:48 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (8.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 19:48:38 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (196.2ms)
+Completed 200 OK in 242ms (Views: 234.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 19:48:44 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (9.7ms)
+  Rendered study_guides/_form.html.erb (119.5ms)
+  Rendered study_guides/new.html.erb within layouts/application (128.4ms)
+Completed 200 OK in 158ms (Views: 147.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 19:48:45 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 19:48:45 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 19:48:46 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.5ms)
+  Rendered study_guides/_form.html.erb (9.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 19:48:46 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 19:48:47 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (9.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 19:48:48 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 19:48:48 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.6ms)
+  Rendered study_guides/_form.html.erb (9.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 19:49:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z8CAMwb4DEoajiR6O5cMWJ0hSev37STCZpGRFHuk84Zk0K5HGN3/NSbCoV2ILQMbxdd96J0zVr9lHfASXOByAQ==", "study_guide"=>{"title"=>"I am the title", "sgfields_attributes"=>{"1523994529771"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"Heading stuff"}, "1523994530690"=>{"_destroy"=>"false", "type"=>"Mainpoint", "content"=>"Main stuff"}, "1523994531284"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"term definition"}, "1523994532287"=>{"_destroy"=>"false", "type"=>"BulletPoint", "content"=>"bullet point"}, "1523994532954"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"numbers"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "I am the title"], ["created_at", "2018-04-17 19:49:50.187557"], ["updated_at", "2018-04-17 19:49:50.187557"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 22], ["type", "Heading"], ["content", "Heading stuff"], ["created_at", "2018-04-17 19:49:50.190076"], ["updated_at", "2018-04-17 19:49:50.190076"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 22], ["type", "Mainpoint"], ["content", "Main stuff"], ["created_at", "2018-04-17 19:49:50.191190"], ["updated_at", "2018-04-17 19:49:50.191190"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 22], ["type", "Term-Definition"], ["content", "term definition"], ["created_at", "2018-04-17 19:49:50.191890"], ["updated_at", "2018-04-17 19:49:50.191890"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 22], ["type", "BulletPoint"], ["content", "bullet point"], ["created_at", "2018-04-17 19:49:50.192555"], ["updated_at", "2018-04-17 19:49:50.192555"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 22], ["type", "Numbering"], ["content", "numbers"], ["created_at", "2018-04-17 19:49:50.193240"], ["updated_at", "2018-04-17 19:49:50.193240"]]
+  [1m[35m (27.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 52ms (ActiveRecord: 28.7ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 19:49:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 19:59:13 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 19:59:16 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/student1/Assignments/hyperfocus/code/app/controllers/study_guides_controller.rb:189: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/study_guides_controller.rb:189: syntax error, unexpected keyword_end, expecting end-of-input
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:02:43 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.3ms)
+  Rendered study_guides/_form.html.erb (15.8ms)
+  Rendered study_guides/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 45ms (Views: 37.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:02:51 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:02:52 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (9.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 20:02:52 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:02:59 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (10.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:03:08 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0/SyqU6AB9x5p52Ful5n2n3iLIf0/zoxIU8A4ndGyE8X/y+ux/zYE2qG1GlU3bcMQG8sXUNjpXHCV0Frpmapg==", "study_guide"=>{"title"=>"Bobby", "sgfields_attributes"=>{"1523995384346"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bobby"], ["created_at", "2018-04-17 20:03:08.957164"], ["updated_at", "2018-04-17 20:03:08.957164"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 23], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 20:03:08.958822"], ["updated_at", "2018-04-17 20:03:08.958822"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 4.5ms)
+
+
+  
+NameError (undefined local variable or method `topprint_hash' for #<StudyGuidesController:0x007fc3b4667770>
+Did you mean?  toprint_hash):
+  
+app/controllers/study_guides_controller.rb:98:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.1ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:14:40 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0/SyqU6AB9x5p52Ful5n2n3iLIf0/zoxIU8A4ndGyE8X/y+ux/zYE2qG1GlU3bcMQG8sXUNjpXHCV0Frpmapg==", "study_guide"=>{"title"=>"Bobby", "sgfields_attributes"=>{"1523995384346"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bobby"], ["created_at", "2018-04-17 20:14:40.166270"], ["updated_at", "2018-04-17 20:14:40.166270"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 24], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 20:14:40.167880"], ["updated_at", "2018-04-17 20:14:40.167880"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 6.4ms)
+
+
+  
+NameError (undefined local variable or method `topprint_hash' for #<StudyGuidesController:0x007fc3c63a25f0>
+Did you mean?  toprint_hash):
+  
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.3ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:15:09 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0/SyqU6AB9x5p52Ful5n2n3iLIf0/zoxIU8A4ndGyE8X/y+ux/zYE2qG1GlU3bcMQG8sXUNjpXHCV0Frpmapg==", "study_guide"=>{"title"=>"Bobby", "sgfields_attributes"=>{"1523995384346"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bobby"], ["created_at", "2018-04-17 20:15:09.672169"], ["updated_at", "2018-04-17 20:15:09.672169"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 25], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 20:15:09.673575"], ["updated_at", "2018-04-17 20:15:09.673575"]]
+  [1m[35m (58.4ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 59.8ms)
+
+
+  
+NoMethodError (undefined method `to_h' for "sgfields_attributes":String
+Did you mean?  to_d
+               to_f
+               to_i
+               to_s
+               to_r
+               to_c):
+  
+app/controllers/study_guides_controller.rb:104:in `block in create'
+app/controllers/study_guides_controller.rb:100:in `each'
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:21:36 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0/SyqU6AB9x5p52Ful5n2n3iLIf0/zoxIU8A4ndGyE8X/y+ux/zYE2qG1GlU3bcMQG8sXUNjpXHCV0Frpmapg==", "study_guide"=>{"title"=>"Bobby", "sgfields_attributes"=>{"1523995384346"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bobby"], ["created_at", "2018-04-17 20:21:36.929373"], ["updated_at", "2018-04-17 20:21:36.929373"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 26], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 20:21:36.932262"], ["updated_at", "2018-04-17 20:21:36.932262"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 6.0ms)
+
+
+  
+NoMethodError (undefined method `each' for "sgfields_attributes":String):
+  
+app/controllers/study_guides_controller.rb:106:in `block in create'
+app/controllers/study_guides_controller.rb:100:in `each'
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:24:01 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0/SyqU6AB9x5p52Ful5n2n3iLIf0/zoxIU8A4ndGyE8X/y+ux/zYE2qG1GlU3bcMQG8sXUNjpXHCV0Frpmapg==", "study_guide"=>{"title"=>"Bobby", "sgfields_attributes"=>{"1523995384346"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bobby"], ["created_at", "2018-04-17 20:24:01.763702"], ["updated_at", "2018-04-17 20:24:01.763702"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 27], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 20:24:01.765294"], ["updated_at", "2018-04-17 20:24:01.765294"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 24ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 20:24:03 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:24:51 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (9.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:24:51 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:31:33 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.2ms)
+  Rendered study_guides/_form.html.erb (15.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 20:31:34 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:31:35 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (2.7ms)
+  Rendered study_guides/_form.html.erb (14.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:31:36 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 20:31:37 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:31:37 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (9.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:31:38 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-17 20:31:44 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:31:47 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (8.5ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:32:00 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:32:01 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (2.9ms)
+  Rendered study_guides/_form.html.erb (8.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:33:30 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9iMXCHzmBjYDT3w7r5jwBfd3wF88xn/ZrJX2w+ECoaz1Mzl8YsP1ST8D+RwcIv9Gr4H0XFYYDaSvGZfFxkYgKw==", "study_guide"=>{"title"=>"woot WOOT"}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "woot WOOT"], ["created_at", "2018-04-17 20:33:30.330052"], ["updated_at", "2018-04-17 20:33:30.330052"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 17ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 20:33:30 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 20:39:43 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:39:43 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.0ms)
+  Rendered study_guides/_form.html.erb (14.4ms)
+  Rendered study_guides/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 41ms (Views: 33.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-17 20:39:44 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 20:39:44 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.6ms)
+  Rendered study_guides/_form.html.erb (9.2ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 20:39:54 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R01jtJ97ed0qNaMll76AmCDm32XF9PMqKzPriGyn27ZEXU3AgV6KohZ5JgIkBI/beBDrZq8qgVcov4qOS+NaMQ==", "study_guide"=>{"title"=>"grrr", "sgfields_attributes"=>{"1523997588078"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"afdsfas"}, "1523997591606"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"adfsadfs"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "grrr"], ["created_at", "2018-04-17 20:39:54.948379"], ["updated_at", "2018-04-17 20:39:54.948379"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 29], ["type", "Term-Definition"], ["content", "afdsfas"], ["created_at", "2018-04-17 20:39:54.950127"], ["updated_at", "2018-04-17 20:39:54.950127"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 29], ["type", "Term-Definition"], ["content", "adfsadfs"], ["created_at", "2018-04-17 20:39:54.950978"], ["updated_at", "2018-04-17 20:39:54.950978"]]
+  [1m[35m (22.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 88ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 20:39:55 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:02:31 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:02:32 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/student1/Assignments/hyperfocus/code/app/controllers/study_guides_controller.rb:124: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+			  html_file.puts "<"tag+">"+ value.to_s + "</"+tag+">"
+			                       ^):
+  
+app/controllers/study_guides_controller.rb:124: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:02:58 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.7ms)
+  Rendered study_guides/_form.html.erb (16.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 51ms (Views: 43.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:03:10 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j4gD1I85D7q1SIjFi8bUyLVqdEk+3YWh/vtElu+Dy7iMmC2gkRz8xYkEDeI4fNuL7ZxASlQD99z9dyWQyMdKPw==", "study_guide"=>{"title"=>"woot WOOT", "sgfields_attributes"=>{"1524002583146"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"afasdfds"}, "1524002586760"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"sfdadf"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "woot WOOT"], ["created_at", "2018-04-17 22:03:10.041976"], ["updated_at", "2018-04-17 22:03:10.041976"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 30], ["type", "Term-Definition"], ["content", "afasdfds"], ["created_at", "2018-04-17 22:03:10.051675"], ["updated_at", "2018-04-17 22:03:10.051675"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 30], ["type", "Numbering"], ["content", "sfdadf"], ["created_at", "2018-04-17 22:03:10.052745"], ["updated_at", "2018-04-17 22:03:10.052745"]]
+  [1m[35m (79.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 81.0ms)
+
+
+  
+NoMethodError (undefined method `each' for "1524002583146":String):
+  
+app/controllers/study_guides_controller.rb:107:in `block (2 levels) in create'
+app/controllers/study_guides_controller.rb:106:in `each'
+app/controllers/study_guides_controller.rb:106:in `block in create'
+app/controllers/study_guides_controller.rb:100:in `each'
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.0ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.4ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:05:18 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j4gD1I85D7q1SIjFi8bUyLVqdEk+3YWh/vtElu+Dy7iMmC2gkRz8xYkEDeI4fNuL7ZxASlQD99z9dyWQyMdKPw==", "study_guide"=>{"title"=>"woot WOOT", "sgfields_attributes"=>{"1524002583146"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"afasdfds"}, "1524002586760"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"sfdadf"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "woot WOOT"], ["created_at", "2018-04-17 22:05:18.816710"], ["updated_at", "2018-04-17 22:05:18.816710"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 31], ["type", "Term-Definition"], ["content", "afasdfds"], ["created_at", "2018-04-17 22:05:18.818179"], ["updated_at", "2018-04-17 22:05:18.818179"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 31], ["type", "Numbering"], ["content", "sfdadf"], ["created_at", "2018-04-17 22:05:18.819092"], ["updated_at", "2018-04-17 22:05:18.819092"]]
+  [1m[35m (15.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 16.7ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/study_guides_controller.rb:124:in `+'
+app/controllers/study_guides_controller.rb:124:in `block (3 levels) in create'
+app/controllers/study_guides_controller.rb:107:in `each'
+app/controllers/study_guides_controller.rb:107:in `block (2 levels) in create'
+app/controllers/study_guides_controller.rb:106:in `each'
+app/controllers/study_guides_controller.rb:106:in `block in create'
+app/controllers/study_guides_controller.rb:100:in `each'
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:06:53 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j4gD1I85D7q1SIjFi8bUyLVqdEk+3YWh/vtElu+Dy7iMmC2gkRz8xYkEDeI4fNuL7ZxASlQD99z9dyWQyMdKPw==", "study_guide"=>{"title"=>"woot WOOT", "sgfields_attributes"=>{"1524002583146"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"afasdfds"}, "1524002586760"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"sfdadf"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "woot WOOT"], ["created_at", "2018-04-17 22:06:53.960609"], ["updated_at", "2018-04-17 22:06:53.960609"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 32], ["type", "Term-Definition"], ["content", "afasdfds"], ["created_at", "2018-04-17 22:06:53.962242"], ["updated_at", "2018-04-17 22:06:53.962242"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 32], ["type", "Numbering"], ["content", "sfdadf"], ["created_at", "2018-04-17 22:06:53.963162"], ["updated_at", "2018-04-17 22:06:53.963162"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 26ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:06:55 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:06:57 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (9.0ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:07:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6tAYWjfyXasrMYwICyL5GSRQ8X1MLxr1TNGOnjeRTZPpwDYuKdeu1Bd9CS+4mPZafKbFfibxaIhPXe+YENXMFA==", "study_guide"=>{"title"=>"grrr", "sgfields_attributes"=>{"1524002822094"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"woot woot\r\n"}, "1524002831457"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"I am number one"}, "1524002832171"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"woot"}, "1524002832799"=>{"_destroy"=>"false", "type"=>"Mainpoint", "content"=>"afdflnaksdf"}, "1524002833446"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"afasdfasdf"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "grrr"], ["created_at", "2018-04-17 22:07:50.520326"], ["updated_at", "2018-04-17 22:07:50.520326"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 33], ["type", "Term-Definition"], ["content", "woot woot\r\n"], ["created_at", "2018-04-17 22:07:50.521938"], ["updated_at", "2018-04-17 22:07:50.521938"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 33], ["type", "Numbering"], ["content", "I am number one"], ["created_at", "2018-04-17 22:07:50.522804"], ["updated_at", "2018-04-17 22:07:50.522804"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 33], ["type", "Heading"], ["content", "woot"], ["created_at", "2018-04-17 22:07:50.523582"], ["updated_at", "2018-04-17 22:07:50.523582"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 33], ["type", "Mainpoint"], ["content", "afdflnaksdf"], ["created_at", "2018-04-17 22:07:50.524327"], ["updated_at", "2018-04-17 22:07:50.524327"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 33], ["type", "Numbering"], ["content", "afasdfasdf"], ["created_at", "2018-04-17 22:07:50.525109"], ["updated_at", "2018-04-17 22:07:50.525109"]]
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 22ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:07:50 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:12:08 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.3ms)
+  Rendered study_guides/_form.html.erb (15.3ms)
+  Rendered study_guides/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 45ms (Views: 37.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:12:14 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91oR3ne/mdQA8RP6N51IEJMB2ouZiVrAekQekMrVK1r0Sj+qaZpqqzy9lt2EJ0dTy/fuiPNXKL15yH+W7ZGq3Q==", "study_guide"=>{"title"=>"qweq"}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "qweq"], ["created_at", "2018-04-17 22:12:14.036556"], ["updated_at", "2018-04-17 22:12:14.036556"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 9ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:12:14 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:12:18 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.4ms)
+  Rendered study_guides/_form.html.erb (9.1ms)
+  Rendered study_guides/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:12:45 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7HkXfBVP7g6MgHBVFdEhIBx6+UCQC6tUfYm+NTz9O+DvaTkIC2odcbDM9XKmay5jRIzNQ/rV2Sl+Bd8zG7m6Zw==", "study_guide"=>{"title"=>"qweqwe", "sgfields_attributes"=>{"1524003141240"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"qeqweq"}, "1524003144009"=>{"_destroy"=>"false", "type"=>"Mainpoint", "content"=>"qweqweqwe"}, "1524003147181"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"qeqweqwe"}, "1524003150627"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"qweqweqw"}, "1524003158087"=>{"_destroy"=>"false", "type"=>"BulletPoint", "content"=>"qeqweqeqwe"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "qweqwe"], ["created_at", "2018-04-17 22:12:45.291997"], ["updated_at", "2018-04-17 22:12:45.291997"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 35], ["type", "Numbering"], ["content", "qeqweq"], ["created_at", "2018-04-17 22:12:45.293687"], ["updated_at", "2018-04-17 22:12:45.293687"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 35], ["type", "Mainpoint"], ["content", "qweqweqwe"], ["created_at", "2018-04-17 22:12:45.294577"], ["updated_at", "2018-04-17 22:12:45.294577"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 35], ["type", "Term-Definition"], ["content", "qeqweqwe"], ["created_at", "2018-04-17 22:12:45.295350"], ["updated_at", "2018-04-17 22:12:45.295350"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 35], ["type", "Heading"], ["content", "qweqweqw"], ["created_at", "2018-04-17 22:12:45.296138"], ["updated_at", "2018-04-17 22:12:45.296138"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 35], ["type", "BulletPoint"], ["content", "qeqweqeqwe"], ["created_at", "2018-04-17 22:12:45.296898"], ["updated_at", "2018-04-17 22:12:45.296898"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 5.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/study_guides_controller.rb:116:in `to_s'
+app/controllers/study_guides_controller.rb:116:in `block (3 levels) in create'
+app/controllers/study_guides_controller.rb:107:in `each'
+app/controllers/study_guides_controller.rb:107:in `block (2 levels) in create'
+app/controllers/study_guides_controller.rb:106:in `each'
+app/controllers/study_guides_controller.rb:106:in `block in create'
+app/controllers/study_guides_controller.rb:100:in `each'
+app/controllers/study_guides_controller.rb:100:in `create'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.0ms)
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:13:43 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7HkXfBVP7g6MgHBVFdEhIBx6+UCQC6tUfYm+NTz9O+DvaTkIC2odcbDM9XKmay5jRIzNQ/rV2Sl+Bd8zG7m6Zw==", "study_guide"=>{"title"=>"qweqwe", "sgfields_attributes"=>{"1524003141240"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"qeqweq"}, "1524003144009"=>{"_destroy"=>"false", "type"=>"Mainpoint", "content"=>"qweqweqwe"}, "1524003147181"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"qeqweqwe"}, "1524003150627"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"qweqweqw"}, "1524003158087"=>{"_destroy"=>"false", "type"=>"BulletPoint", "content"=>"qeqweqeqwe"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "qweqwe"], ["created_at", "2018-04-17 22:13:43.392780"], ["updated_at", "2018-04-17 22:13:43.392780"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 36], ["type", "Numbering"], ["content", "qeqweq"], ["created_at", "2018-04-17 22:13:43.394294"], ["updated_at", "2018-04-17 22:13:43.394294"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 36], ["type", "Mainpoint"], ["content", "qweqweqwe"], ["created_at", "2018-04-17 22:13:43.395153"], ["updated_at", "2018-04-17 22:13:43.395153"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 36], ["type", "Term-Definition"], ["content", "qeqweqwe"], ["created_at", "2018-04-17 22:13:43.395957"], ["updated_at", "2018-04-17 22:13:43.395957"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 36], ["type", "Heading"], ["content", "qweqweqw"], ["created_at", "2018-04-17 22:13:43.396740"], ["updated_at", "2018-04-17 22:13:43.396740"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 36], ["type", "BulletPoint"], ["content", "qeqweqeqwe"], ["created_at", "2018-04-17 22:13:43.397479"], ["updated_at", "2018-04-17 22:13:43.397479"]]
+  [1m[35m (36.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 62ms (ActiveRecord: 37.8ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:13:44 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/public/temp.html" for 159.91.70.228 at 2018-04-17 22:15:24 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/public/temp.html"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:20:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (7.7ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.9ms)
+Started GET "/pages/public/temp.html" for 159.91.70.228 at 2018-04-17 22:15:38 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/public/temp.html"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:20:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.11.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (4.2ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:15:39 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-17 22:15:42 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#new as HTML
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (3.1ms)
+  Rendered study_guides/_form.html.erb (23.6ms)
+  Rendered study_guides/new.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 52ms (Views: 43.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-17 22:16:16 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vn618nKob2m8Fk4zTcVliNCyLGb0BlvtTfsPbBNWhWxVbpuGbI2cFoBayxT+f2rLiEQYZZ7YKZBOd25qNBIE6w==", "study_guide"=>{"title"=>"numbering test", "sgfields_attributes"=>{"1524003352671"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"I am number"}, "1524003358823"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"You are number 2"}, "1524003365081"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"Numberless"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "numbering test"], ["created_at", "2018-04-17 22:16:16.825856"], ["updated_at", "2018-04-17 22:16:16.825856"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 37], ["type", "Numbering"], ["content", "I am number"], ["created_at", "2018-04-17 22:16:16.827820"], ["updated_at", "2018-04-17 22:16:16.827820"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 37], ["type", "Numbering"], ["content", "You are number 2"], ["created_at", "2018-04-17 22:16:16.828838"], ["updated_at", "2018-04-17 22:16:16.828838"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 37], ["type", "Numbering"], ["content", "Numberless"], ["created_at", "2018-04-17 22:16:16.829671"], ["updated_at", "2018-04-17 22:16:16.829671"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 17ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-17 22:16:16 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 159.91.70.228 at 2018-04-18 14:43:36 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/study_guides/new" for 159.91.70.228 at 2018-04-18 14:43:36 +0000
+Started GET "/" for 159.91.70.228 at 2018-04-18 14:43:36 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/pages/edit" for 159.91.70.228 at 2018-04-18 14:43:36 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (191.8ms)
+Completed 200 OK in 239ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+Processing by PagesController#edit as HTML
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (34.8ms)
+  Rendered pages/home.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 120ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by StudyGuidesController#new as HTML
+Started GET "/" for 159.91.70.228 at 2018-04-18 14:43:47 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering study_guides/new.html.erb within layouts/application
+  Rendered study_guides/_sgfield_fields.html.erb (4.2ms)
+  Rendered study_guides/_form.html.erb (51.7ms)
+  Rendered study_guides/new.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 116ms (Views: 71.6ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/study_guides" for 159.91.70.228 at 2018-04-18 14:45:29 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudyGuidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YiyB2zfyObD6aR0b6QmghaL7XAxlRjbnQyiPTrEyO8BhPK+vKdfKz8YlmDxas6/G+g1oDw+YRJpApO5Ilna6Rw==", "study_guide"=>{"title"=>"Us History", "sgfields_attributes"=>{"1524062642282"=>{"_destroy"=>"false", "type"=>"Heading", "content"=>"This is a heading"}, "1524062647588"=>{"_destroy"=>"false", "type"=>"Mainpoint", "content"=>"This is a main point"}, "1524062656653"=>{"_destroy"=>"false", "type"=>"Term-Definition", "content"=>"term and definition"}, "1524062664256"=>{"_destroy"=>"false", "type"=>"BulletPoint", "content"=>"I am a bullet point"}, "1524062707862"=>{"_destroy"=>"false", "type"=>"Numbering", "content"=>"numbers n stuff"}}}, "commit"=>"Create Study guide"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "study_guides" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Us History"], ["created_at", "2018-04-18 14:45:29.976887"], ["updated_at", "2018-04-18 14:45:29.976887"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 38], ["type", "Heading"], ["content", "This is a heading"], ["created_at", "2018-04-18 14:45:29.978706"], ["updated_at", "2018-04-18 14:45:29.978706"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 38], ["type", "Mainpoint"], ["content", "This is a main point"], ["created_at", "2018-04-18 14:45:29.979557"], ["updated_at", "2018-04-18 14:45:29.979557"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 38], ["type", "Term-Definition"], ["content", "term and definition"], ["created_at", "2018-04-18 14:45:29.980312"], ["updated_at", "2018-04-18 14:45:29.980312"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 38], ["type", "BulletPoint"], ["content", "I am a bullet point"], ["created_at", "2018-04-18 14:45:29.981051"], ["updated_at", "2018-04-18 14:45:29.981051"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "sgfields" ("study_guide_id", "type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["study_guide_id", 38], ["type", "Numbering"], ["content", "numbers n stuff"], ["created_at", "2018-04-18 14:45:29.981783"], ["updated_at", "2018-04-18 14:45:29.981783"]]
+  [1m[35m (53.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://csc415-server09.hpc.tcnj.edu:3000/pages/download
+Completed 302 Found in 68ms (ActiveRecord: 55.0ms)
+
+
+Started GET "/pages/download" for 159.91.70.228 at 2018-04-18 14:45:30 +0000
+Cannot render console from 159.91.70.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#download as HTML
+  Rendering pages/download.html.erb within layouts/application
+  Rendered pages/download.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+

@@ -90,22 +90,51 @@ class StudyGuidesController < ApplicationController
       html_file.puts  "<li> numbering </li> "
       html_file.puts  "<li> number </li>"
       html_file.puts "</ol>"
+	
+     #toprint_hash = Hash.new
 
       toprint_hash = study_guide_params.to_h
-      html_file.puts toprint_hash
-
-
-      topprint_hash.each do |curr, currVal|
+    
+      tag = p
+      toprint_hash.each do |curr, currVal|
         if curr.to_s == 'title'
-          html_file.puts "<h1>" + curr=>currVal.to_s + "</h1>"
+          html_file.puts "<h1>" + currVal.to_s + "</h1>"
         elsif curr.to_s == 'sgfields_attributes'
-          separatefields_hash = curr.to_h
+	  
+	  currVal.each do |num, info|
+	  	info.each do | name, value|
+		 if name.to_s == 'type'
+		     
+		      	if value.to_s == "Heading" 
+				tag = 'h2'
+			elsif value.to_s == "Mainpoint" 
+				tag = 'h3'
+			elsif value.to_s == "Term-Definition" 
+				tag = 'p'
+			elsif value.to_s == "BulletPoint"
+				tag= 'ul'
+			elsif value.to_s == "Numbering" 
+				tag = 'ol'
+		 	else 
+			   tag = "p"
+		     end
+		 elsif name.to_s == 'content'
+			if tag == ('ol' || 'ul')
+			  html_file.puts "<" + tag + ">"
+			  html_file.puts "<li>"+ value.to_s + "</li>"
+			  html_file.puts  "<" + tag + ">"
 
-          separatefields_hash.each do |number, info|
-            information_hash = info.to_h
-            html_file.puts information_hash
-
-            end
+			else
+			  html_file.puts "<"+ tag.to_s+">"+ value.to_s + "</"+tag.to_s+">"
+			end
+                 
+		 end  
+		
+		
+		 end
+		
+	  end
+          
 
         end
 
