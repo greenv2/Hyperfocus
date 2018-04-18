@@ -56,7 +56,7 @@ class StudyGuidesController < ApplicationController
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
 
 
-      html_file = File.new('public/temp.html', "w+")
+      html_file = File.new('public/temp.html.erb', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
       html_file.puts "<!DOCTYPE html>"
       #send_data("<html lang=\"en\"> " => 'temp.html')
@@ -119,7 +119,7 @@ class StudyGuidesController < ApplicationController
 			   tag = "p"
 		     end
 		 elsif name.to_s == 'content'
-			if tag == ('ol' || 'ul')
+			if tag == 'ol' or tag == 'ul'
 			  html_file.puts "<" + tag + ">"
 			  html_file.puts "<li>"+ value.to_s + "</li>"
 			  html_file.puts  "<" + tag + ">"
