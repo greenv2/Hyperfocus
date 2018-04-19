@@ -56,7 +56,7 @@ class StudyGuidesController < ApplicationController
       #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
 
 
-      html_file = File.new('public/temp.html.erb', "w+")
+      html_file = File.new('public/temp.html', "w+")
       #send_data("<!DOCTYPE html>" => 'temp.html')
       html_file.puts "<!DOCTYPE html>"
       #send_data("<html lang=\"en\"> " => 'temp.html')
@@ -73,6 +73,7 @@ class StudyGuidesController < ApplicationController
 
       html_file.puts "<body>"
       #send_data("<body>"=> 'temp.html')
+=begin
       html_file.puts "<h1>"
       html_file.puts  'title'
       html_file.puts "</h1>"
@@ -90,7 +91,7 @@ class StudyGuidesController < ApplicationController
       html_file.puts  "<li> numbering </li> "
       html_file.puts  "<li> number </li>"
       html_file.puts "</ol>"
-	
+=end	
      #toprint_hash = Hash.new
 
       toprint_hash = study_guide_params.to_h
@@ -173,9 +174,12 @@ class StudyGuidesController < ApplicationController
       html_file.puts "</html>"
       #end_data("</html>"=> 'temp.html')
       html_file.close
+	
+      pdf = WickedPdf.new.pdf_from_html_file('/home/student1/Assignments/hyperfocus/code/public/temp.html')
+	
+      #pdf = WickedPdf.new.pdf_from_url('https://github.com/mileszs/wicked_pdf')	
 
-
-      redirect_to pages_download_path, notice: 'Study Guide Form was Successfully created.'
+send_data(pdf, :filename => "studyguide.pdf", :disposition => 'attachment', :notice => 'Study Guide was Successfully created.')
 
     else
       redirect_to pages_new_path
