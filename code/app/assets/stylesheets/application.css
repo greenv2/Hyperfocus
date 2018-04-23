@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
+body{
+    margin: 0;
+}
 
  .nav ul {
      list-style-type:none;
@@ -173,7 +175,6 @@
 
    border:none;
    font-size: 1em;
-   text-decoration: none;
 
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
