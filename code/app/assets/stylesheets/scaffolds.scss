@@ -1,17 +1,19 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
+
+
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+  color: red;
 }
 
 pre {
@@ -76,6 +78,7 @@ div {
     margin-bottom: 0;
     background-color: #c00;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
   }
 
   ul li {

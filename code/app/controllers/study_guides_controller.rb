@@ -69,8 +69,39 @@ class StudyGuidesController < ApplicationController
       html_file.puts "<head>"
       #send_data("<meta charset=\"UTF-8\">"=> 'temp.html')
       html_file.puts "<meta charset=\"UTF-8\">"
+      html_file.puts "<link href=\"https://fonts.googleapis.com/css?family=Antic+Slab|Fredoka+One|Julius+Sans+One|Permanent+Marker|Quicksand|Tajawal|Zilla+Slab\" rel=\"stylesheet\">"
+       html_file.puts "<style>" + "body{
+  background-color: #fff;
+    font-family: 'Zilla Slab', serif;
+    padding: 50px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    
+}
 
-      #style sheet
+h2{
+    
+
+    /* font-family: 'Permanent Marker', cursive;
+    font-family: 'Julius Sans One', sans-serif;*/
+    font-family: 'Tajawal', sans-serif;
+    /*font-family: 'Fredoka One', cursive;
+    font-family: 'Antic Slab', serif;
+    font-family: 'Zilla Slab', serif;
+    font-family: 'Quicksand', sans-serif;*/
+    text-align: left;
+}
+
+span{
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+ " + "</style>"
+      #html_file.puts "<%= stylesheet_link_tag \"https://drive.google.com/file/d/1c5ryeqnNVD1Vzux8Ljee8CKozbm84K6Z/view?usp=sharing\" %>"
+     #style sheet
       # fonts
       #send_data( "</head>" => 'temp.html')
       html_file.puts "</head>"
