@@ -19,8 +19,9 @@ body{
 
  .nav ul {
      list-style-type:none;
-     padding: 0 ;
-     margin-top: -20px;
+     padding: 0;
+     margin:0;
+      //margin-top: -20px;
      margin-bottom: -12px;
      overflow: hidden;
 
@@ -43,7 +44,7 @@ body{
      font-family: 'Amatic SC', cursive;
      font-weight: bold;
      font-size: 2em;
-     line-height: 1.5;
+     line-height: 1.2;
      color: #333;
      background: #FFFFFF;
      text-decoration: none;
@@ -93,7 +94,7 @@ body{
 
 
  .blurb p{
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Open Sans', sans-serif;
    font-weight:300;
    font-size: 1.5em;
  }
@@ -133,7 +134,7 @@ body{
    border-left: 5px solid #2C666E;
 
    line-height: 2;
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Open Sans', sans-serif;
  }
 
  .GetStarted h2{
