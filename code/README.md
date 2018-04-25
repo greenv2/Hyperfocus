@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+This web application will act as study guide generator that will allow people with executive function disorder to quickly input the information and output a fully formatted and organized study guide.
 
 * System dependencies
+  * simple_form gem
+  * cocoon gem
+  * wicked-pdf gem
+  
+* Current Functionality
+  * Can create a study guide based on user input. When user clicks the button "create study guide" if the required forms have content the pdf is downloaded
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
