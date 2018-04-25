@@ -15,35 +15,22 @@ Description: Study guide controller initializing creating and exporting
 class StudyGuidesController < ApplicationController
   before_action :set_study_guide, only: [:show, :edit, :update, :destroy]
 
-  # GET /study_guides
-  # GET /study_guides.json
-  #automatically generated
   def index
     @study_guides = StudyGuide.all
   end
 
-  # GET /study_guides/1
-  # GET /study_guides/1.json
-  #automatically generated
   def show
   end
 
-  # GET /study_guides/new
-  #automatically generated
   def new
     puts "making it!"
     @study_guide = StudyGuide.new
     @study_guide.sgfields.build
   end
 
-  # GET /study_guides/1/edit
-  #automatically generated
   def edit
   end
 
-  # POST /study_guides
-  # POST /study_guides.json
-  #automatically generated
 
   # user has filled in form and has selected create study Guide
   # function takes input and saves it in params
@@ -54,25 +41,19 @@ class StudyGuidesController < ApplicationController
 
   def create
     @study_guide = StudyGuide.new(study_guide_params)
-    #wicked_pdf stuff
 
     if @study_guide.save
-      #redirect_to edit_study_guide_path(@study_guide), notice: 'Study Guide Form was Successfully created.'
 
 
       html_file = File.new('public/temp.html', "w+")
-      #send_data("<!DOCTYPE html>" => 'temp.html')
       html_file.puts "<!DOCTYPE html>"
-      #send_data("<html lang=\"en\"> " => 'temp.html')
       html_file.puts "<html lang=\"en\"> "
-      #send_data("<head>"=> 'temp.html')
       html_file.puts "<head>"
-      #send_data("<meta charset=\"UTF-8\">"=> 'temp.html')
       html_file.puts "<meta charset=\"UTF-8\">"
       html_file.puts "<link href=\"https://fonts.googleapis.com/css?family=Dosis:300|Maven+Pro|Quicksand\" rel=\"stylesheet\">"
        html_file.puts "<style>" + "
        body{
-            padding: 50px;
+            padding: 25px;
         }
         h1{
             text-align: center;
@@ -107,35 +88,10 @@ class StudyGuidesController < ApplicationController
         }
 
  " + "</style>"
-      #html_file.puts "<%= stylesheet_link_tag \"https://drive.google.com/file/d/1c5ryeqnNVD1Vzux8Ljee8CKozbm84K6Z/view?usp=sharing\" %>"
-     #style sheet
-      # fonts
-      #send_data( "</head>" => 'temp.html')
       html_file.puts "</head>"
 
       html_file.puts "<body>"
-      #send_data("<body>"=> 'temp.html')
-=begin
-      html_file.puts "<h1>"
-      html_file.puts  'title'
-      html_file.puts "</h1>"
-
-      html_file.puts "<h2>"
-      html_file.puts  'Mainpoint'
-      html_file.puts "</h2>"
-
-      html_file.puts "<ul>"
-      html_file.puts  "<li> bullet point </li> "
-      html_file.puts  "<li> bullet point </li>"
-      html_file.puts "</ul>"
-
-      html_file.puts "<ol>"
-      html_file.puts  "<li> numbering </li> "
-      html_file.puts  "<li> number </li>"
-      html_file.puts "</ol>"
-=end	
-     #toprint_hash = Hash.new
-
+ 
       toprint_hash = study_guide_params.to_h
     
       tag = p
@@ -201,52 +157,23 @@ class StudyGuidesController < ApplicationController
       
 
 
-      #title = toprint_hash.select { |key, value| key.to_s.match(/^title\d+/)}
-      #html_file.puts  title.to_s
-      #toprint_hash.delete(title)
-
-      #toprint_hash each do |field, value|
-        #value.each do |type , content|
-          #case type
-         # if type == 'Heading'
-         #   html_file.puts "<h1> content is" + content + "</h1>"
-         # else if type == 'Mainpoint'
-         # else if type == 'bullet point'
-         # else if type == 'numbering'
-         # else if type == 'term definition'
-         # else
-            #html_file.puts "<h1> content is" + content + " and type is" + type + "</h1>"
-         # end
-
-      #  end
-
-
-    #  end
-
-      #send_data(study_guide_params => 'temp.html')
 
       html_file.puts "</body>"
-      #send_data("</body>"=> 'temp.html')
 
       html_file.puts "</html>"
-      #end_data("</html>"=> 'temp.html')
       html_file.close
 	
       pdf = WickedPdf.new.pdf_from_html_file('/home/student1/Assignments/hyperfocus/code/public/temp.html')
 	
-      #pdf = WickedPdf.new.pdf_from_url('https://github.com/mileszs/wicked_pdf')	
 
 send_data(pdf, :filename => "studyguide.pdf", :disposition => 'attachment', :notice => 'Study Guide was Successfully created.')
 
     else
       redirect_to pages_new_path
-      #render :new
     end
 	end
 
 
-  # PATCH/PUT /study_guides/1
-  # PATCH/PUT /study_guides/1.json
   # automatically generated function that would update values of studyguide
   def update
     if @study_guide.update(study_guide_params)
@@ -256,8 +183,6 @@ send_data(pdf, :filename => "studyguide.pdf", :disposition => 'attachment', :not
     end
   end
 
-  # DELETE /study_guides/1
-  # DELETE /study_guides/1.json
   #automatically generated
   #Delete study guide
   def destroy
