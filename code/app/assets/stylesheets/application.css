@@ -112,6 +112,10 @@ body{
 
  }
 
+a:link{
+  text-decoration: none;
+}
+
  .preview{
 
    display: inline-block;

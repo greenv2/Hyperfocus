@@ -9,3 +9,23 @@
   text-align: center;
   margin: 0 auto;
 }
+
+select{
+ //appearance: none;
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width:110px;
+  height: 20px;
+  padding: 2px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 3px solid #555;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #555;
+}

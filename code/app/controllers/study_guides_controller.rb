@@ -33,7 +33,7 @@ class StudyGuidesController < ApplicationController
   def new
     puts "making it!"
     @study_guide = StudyGuide.new
-
+    @study_guide.sgfields.build
   end
 
   # GET /study_guides/1/edit
@@ -132,6 +132,8 @@ span{
       toprint_hash = study_guide_params.to_h
     
       tag = p
+      span = 0;
+      
       toprint_hash.each do |curr, currVal|
         if curr.to_s == 'title'
           html_file.puts "<h1>" + currVal.to_s + "</h1>"
@@ -145,13 +147,17 @@ span{
 				tag = 'h2'
 			elsif value.to_s == "Mainpoint" 
 				tag = 'h3'
-			elsif value.to_s == "Term-Definition" 
+			elsif value.to_s == "Term" 
 				tag = 'p'
+				span = 1
 			elsif value.to_s == "BulletPoint"
 				tag= 'ul'
-			elsif value.to_s == "Numbering" 
-				tag = 'ol'
-		 	else 
+			elsif value.to_s == "Definition" 
+				tag = 'p'
+				span = 2
+		 	elsif value.to_s == "SubBulletPoint"
+				tag = "ul ul"
+			else 
 			   tag = "p"
 		     end
 		 elsif name.to_s == 'content'
@@ -160,6 +166,15 @@ span{
 			  html_file.puts "<li>"+ value.to_s + "</li>"
 			  html_file.puts  "</" + tag + ">"
 
+			elsif tag == "ul ul"
+			  html_file.puts "<ul> <ul>"
+                          html_file.puts "<li>"+ value.to_s + "</li>"
+                          html_file.puts  "</ul></ul>"
+			elsif span == 1
+			  html_file.puts "<"+ tag.to_s+"><span > "+ value.to_s + "</span>"
+			elsif span == 2
+			  html_file.puts "-" + value.to_s + "</"+tag.to_s+">"
+			  span = 0;
 			else
 			  html_file.puts "<"+ tag.to_s+">"+ value.to_s + "</"+tag.to_s+">"
 			end

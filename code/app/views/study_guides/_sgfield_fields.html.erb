@@ -12,9 +12,12 @@ Description: partial created for sg fields form partial
 
 -->
 <tr class="nested-fields">
+  <td><%= f.input :type, label: false, collection: %w[Type Heading Mainpoint Term Definition BulletPoint SubBulletPoint], selected:'Type' %></td>
+  <td><%= f.input :content, label: false, as: :text %></td>
+
   <td>
     <%= link_to_remove_association 'Remove field',f, class: 'btn btn-primary btn-xs', data: { confirm: 'Are you sure?' }  %>
   </td>
-  <td><%= f.input :type, label: false, collection: %w[Heading Mainpoint Term-Definition BulletPoint Numbering] %></td>
-  <td><%= f.input :content, label: false, as: :text %></td>
+
+
 </tr>
