@@ -94,9 +94,9 @@ body{
 
 
  .blurb p{
-   font-family: 'Roboto', sans-serif;
-   font-weight:300;
-   font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size: 1.2em;
  }
 
  .explanation{
@@ -208,3 +208,12 @@ a:link{
    font-weight:300;
    font-size: 2em;
  }
+
+.explanation {
+ font-family: 'Roboto', sans-serif;
+   font-weight:300;
+}
+
+.GetStarted h2{
+ text-align: center;
+}

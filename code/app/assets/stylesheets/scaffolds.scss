@@ -23,7 +23,7 @@ pre {
 
 a {
   color: #000;
-
+  //margin-top: 30px;
   &:visited {
     color: #666;
   }
@@ -71,7 +71,7 @@ div {
 
   h2 {
     text-align: left;
-    font-weight: bold;
+    font-weight: Lighter;
     padding: 5px 5px 5px 15px;
     font-size: 12px;
     margin: -7px;
@@ -80,6 +80,20 @@ div {
     color: #fff;
     font-family: 'Roboto', sans-serif;
   }
+
+h1{
+    text-align: left;
+    font-weight: Lighter;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+
+}
 
   ul li {
     font-size: 12px;

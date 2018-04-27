@@ -50,3 +50,34 @@ textarea:focus {
 .nested-fields td a:hover{
   background-color: white;
 }
+
+.form-actions a.add_fields{
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  color: #ffffff;
+  background: #79B4BC;
+  padding: 6px 21px 6px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+
+
+opacity: 0.9;
+
+//  background-color: blue;
+}
+
+.form-actions a.add_fields:hover{
+  background: #2C666E;
+  text-decoration: none;
+}
+
+button.create{
+   margin-top: 100px;
+}
+
+.sgform h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
